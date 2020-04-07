@@ -1,0 +1,29 @@
+/* 1. Change `box-sizing` to `border-box` (via https://css-tricks.com/box-sizing/) */
+html {
+	box-sizing: border-box; /* 1 */
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit; /* 1 */
+}
+
+/*
+body {
+  font-family:;
+  font-size:;
+  line-height:;
+  color:;
+  background-color:;
+}
+*/
+
+/* Set good hyphenation defaults (via https://clagnut.com/blog/2395) */
+p {
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-last: always;
+  hyphenate-limit-zone: 8%;
+}

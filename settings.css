@@ -1,0 +1,29 @@
+/*
+ * Default font size: (n/16) * 100%
+ *   So if you want to set 18px as the default font size:
+ *   (18/16) * 100% = 112.5%
+ *
+ * Breakpoints are divided by the default font size, then set in `em`s
+ *   - medium: 768px
+ *   - large: 992px
+ *   - xlarge: 1200px
+ *   So assuming a 16px default font size, 768/16 = 48em
+ */
+
+:root {
+	font-size: 100%;
+}
+
+/*
+@media (min-width: 48em) {
+	:root {}
+}
+
+@media (min-width: 62em) {
+	:root {}
+}
+
+@media (min-width: 75em) {
+	:root {}
+}
+*/
